@@ -25,7 +25,7 @@ Run the main script with:
 python main.py
 
 Ensure your input_catalog.dat is in the correct format:
-# time    magnitude    latitude    longitude    depth
+time    magnitude    latitude    longitude    depth
 12345678  4.5          34.05       -118.25      12.0
 ...
 Each line must have at least 5 floating point values.
