@@ -25,29 +25,40 @@ Run the main script with:
 python main.py
 
 Ensure your input_catalog.dat is in the correct format:
+
 time    magnitude    latitude    longitude    depth
+
 12345678  4.5          34.05       -118.25      12.0
+
 ...
+
 Each line must have at least 5 floating point values.
 
 ## Usage
 
 The output is written to output.dat and contains the following columns:
+
 dth  b  sb  a  sa
+
 Where:
+
 	•	dth: distance threshold (fixed to 20.0 km)
+ 
 	•	b, a: maximum likelihood estimates
+ 
 	•	sb, sa: bootstrap standard deviations
 
 
 ## Notes
 
 A small Gaussian noise is added to each magnitude to break ties:
+
 q.append(qi + 0.1 * (np.random.rand() - 0.5))
 
 ## Requirements
 
 Please install Python packages with:
+
 - pip install numpy scipy
 
 ## Contact
@@ -55,6 +66,7 @@ Please install Python packages with:
 For questions, suggestions, or contributions, please contact:
 
 Giuseppe Petrillo
+
 giuseppe51289@gmail.com
 
 
