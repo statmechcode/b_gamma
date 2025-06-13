@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/998813138.svg)](https://doi.org/10.5281/zenodo.15653633)
+
 # Statistical Analysis of Magnitude Jumps in Earthquake Catalogs
 Code to calculate the value of b and gamma of the p(dm) distribution with incompleteness
 
